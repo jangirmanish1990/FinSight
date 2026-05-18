@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    // Python
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",          // ruff linter + formatter
+
+    // Frontend
+    "esbenp.prettier-vscode",      // Prettier formatter
+    "dbaeumer.vscode-eslint",      // ESLint
+    "bradlc.vscode-tailwindcss",   // Tailwind CSS intellisense
+
+    // General
+    "eamodio.gitlens",             // Git history + blame
+    "ms-vscode.live-server",       // Preview HTML
+    "streetsidesoftware.code-spell-checker",
+
+    // REST testing (instead of Postman)
+    "humao.rest-client",
+
+    // .env support
+    "mikestead.dotenv",
+
+    // TOML (pyproject.toml)
+    "tamasfe.even-better-toml"
+  ]
+}
