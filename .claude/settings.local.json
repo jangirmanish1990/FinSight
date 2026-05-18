@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"D:\\\\FinSight\\\\agents\" -Recurse -Name | Where-Object { $_ -notmatch 'node_modules|__pycache__' })",
+      "PowerShell(Get-ChildItem \"D:\\\\FinSight\\\\backend\" -Recurse -Name | Where-Object { $_ -notmatch '\\\\.venv|__pycache__' } | Select-Object -First 20)"
+    ]
+  }
+}
